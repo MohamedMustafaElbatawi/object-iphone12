@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* body {
+    background-color: #99a10050;
+    background-color: #00030050;
+    background-image: linear-gradient(to right, #01022d, #000);
+    background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ;
+    background-color: #dad3f8;
+    /* background: linear-gradient(#111, #222); */
+/* background-image: linear-gradient(to left, #dfdf68, #d5d8); */
+/* } */
+
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very1-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very2-dark-grayish-blue: hsl(217, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-gray-blue12: hsl(210, 46%, 95%);
+    /* background: #f7f7f7; */
+}
+
+
+body {
+    background-color: var(--moderate-violet);
+    background: #ae445a; 
+} 
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.cont{
+    max-width: 800px;
+    display: flex;
+}
+
+.cont .box{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 12;
+    border-radius: 12px 0 0 12px ;
+}
+
+.cont .box .top-text{
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.cont .box .icon{
+    margin: 15px 0;
+}
+.cont .box .icon i{
+    color: #ae445a;
+    font-size: 20px;
+}
+
+.cont .box .text{
+    font-size: 16px;
+    opacity: .6;
+    margin: 24px 0;
+}
+
+.cont .box input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #ae445a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ;
+
+}
+.cont .box input:hover{
+    transform: scalex(1.1);
+}
+  
+
+
+
+
+
+
+
+.cont .bottom{
+    width: 270px;
+    height: 300px;
+    border-radius: 0 12px 12px 0;  
+    transition: .3s;
+    transform-origin: left;
+    background: url(image/iphone\ \(2\).jpeg) no-repeat ;
+    background-position: center;
+    border: 1px solid white;
+}
+.cont .bottom ul {
+    margin-left: -300px;
+    background:rgba(0, 0, 0, 0.8); 
+    height: 100%;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 24px;
+    border-radius: 0 12px 12px 0;
+    transition: .3s;
+}    
+.cont .bottom:hover ul{
+    margin-left: 0px;
+}
+.cont .bottom ul li { 
+    color: #fff;
+    padding: 10px;
+}
+.cont .bottom ul li a { 
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
